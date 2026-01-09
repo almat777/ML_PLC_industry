@@ -210,4 +210,4 @@ Purpose:
 
 ## Program Realization
 Show the video of realization work
-[![ML_PLC_industry](https://img.youtube.com/vi/U-6GGcndfKo/0.jpg)](https://youtube.com/shorts/U-6GGcndfKo)
+[![ML_PLC_industry](images/youtube_link.png)](https://youtube.com/shorts/U-6GGcndfKo)
