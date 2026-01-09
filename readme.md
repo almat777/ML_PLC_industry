@@ -209,5 +209,5 @@ Purpose:
 
 
 ## Program Realization
- Show the video of realization work
- <iframe width="560" height="315" src="https://www.youtube.com/embed/U-6GGcndfKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Show the video of realization work
+[![ML_PLC_industry](https://img.youtube.com/vi/U-6GGcndfKo/0.jpg)](https://youtube.com/shorts/U-6GGcndfKo)
