@@ -206,14 +206,3 @@ Purpose:
 - Not intended for direct automatic control
 
 ![Optimization Results](Images/fig10_optimization_results.png)
-
----
-
-### 📁 Project Structure
-ML_PLC_industry/
-├── ML_PLC_Jupyter.ipynb   # Main ML notebook
-├── README.md              # Project documentation
-└── data/                  # Dataset (not included)
-
-
-
