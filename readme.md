@@ -89,10 +89,6 @@ This project is designed to work together with:
 - **OPC UA communication**
 - **MATLAB as OPC UA client**
 
-### Concept Flow
-```text
-PLC Sensors → OPC UA → MATLAB → Python ML Model → Prediction → Operator / SCADA
-
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
@@ -101,7 +97,7 @@ PLC Sensors → OPC UA → MATLAB → Python ML Model → Prediction → Operato
 This heatmap shows missing values in the dataset.  
 All selected features have **no missing data**, so no imputation is required.
 
-![Missing Values Heatmap](fig1_missing_values_heatmap.png)
+![Missing Values Heatmap](images/fig1_missing_values_heatmap.png)
 
 ---
 
@@ -113,7 +109,7 @@ Main observations:
 - Strong negative correlation between **% Iron Concentrate** and **% Silica Concentrate**
 - Strong positive correlation between **Flotation Column 01 Air Flow** and **Column 02 Air Flow**
 
-![Correlation Matrix](fig2_correlation_matrix.png)
+![Correlation Matrix](images/fig2_correlation_matrix.png)
 
 ---
 
@@ -125,7 +121,7 @@ Key points:
 - **Air Flow parameters** have negative correlation
 - Most variables have weak to moderate influence
 
-![Target Correlation](fig3_target_correlation.png)
+![Target Correlation](images/fig3_target_correlation.png)
 
 ---
 
@@ -139,7 +135,7 @@ Observations:
 - Data is slightly right-skewed
 - Some outliers are present
 
-![Target Distribution](fig4_target_distribution.png)
+![Target Distribution](images/fig4_target_distribution.png)
 
 ---
 
@@ -149,7 +145,7 @@ Observations:
 Box plots for all features show the presence of outliers.  
 Outliers are expected in industrial process data and were **not removed** to keep realism.
 
-![Outliers Detection](fig5_outliers_detection.png)
+![Outliers Detection](images/fig5_outliers_detection.png)
 
 ---
 
@@ -165,7 +161,7 @@ Results:
 - **Random Forest** shows the best performance
 - Linear and Ridge regression perform worse on nonlinear data
 
-![Model Comparison](fig6_model_comparison.png)
+![Model Comparison](images/fig6_model_comparison.png)
 
 ---
 
@@ -176,7 +172,7 @@ Key insight:
 - **% Iron Concentrate** is the most influential feature
 - Process parameters like air flow and pH also contribute
 
-![Feature Importance](fig7_feature_importance.png)
+![Feature Importance](images/fig7_feature_importance.png)
 
 ---
 
@@ -186,7 +182,7 @@ This scatter plot compares real and predicted values.
 - Points close to the diagonal line mean good predictions
 - Random Forest shows strong accuracy
 
-![Actual vs Predicted](fig8_actual_vs_predicted.png)
+![Actual vs Predicted](images/fig8_actual_vs_predicted.png)
 
 ---
 
@@ -196,7 +192,7 @@ Residual plots show:
 - Residuals are approximately normally distributed
 - No strong bias is visible
 
-![Residuals Analysis](fig9_residuals_analysis.png)
+![Residuals Analysis](images/fig9_residuals_analysis.png)
 
 ---
 
@@ -209,7 +205,7 @@ Purpose:
 - Support **operator decision-making**
 - Not intended for direct automatic control
 
-![Optimization Results](fig10_optimization_results.png)
+![Optimization Results](images/fig10_optimization_results.png)
 
 ---
 
@@ -218,4 +214,5 @@ ML_PLC_industry/
 ├── ML_PLC_Jupyter.ipynb   # Main ML notebook
 ├── README.md              # Project documentation
 └── data/                  # Dataset (not included)
+
 
