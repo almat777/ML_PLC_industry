@@ -97,7 +97,7 @@ This project is designed to work together with:
 This heatmap shows missing values in the dataset.  
 All selected features have **no missing data**, so no imputation is required.
 
-![Missing Values Heatmap](images/fig1_missing_values_heatmap.png)
+![Missing Values Heatmap](Images/fig1_missing_values_heatmap.png)
 
 ---
 
@@ -109,7 +109,7 @@ Main observations:
 - Strong negative correlation between **% Iron Concentrate** and **% Silica Concentrate**
 - Strong positive correlation between **Flotation Column 01 Air Flow** and **Column 02 Air Flow**
 
-![Correlation Matrix](images/fig2_correlation_matrix.png)
+![Correlation Matrix](Images/fig2_correlation_matrix.png)
 
 ---
 
@@ -121,7 +121,7 @@ Key points:
 - **Air Flow parameters** have negative correlation
 - Most variables have weak to moderate influence
 
-![Target Correlation](images/fig3_target_correlation.png)
+![Target Correlation](Images/fig3_target_correlation.png)
 
 ---
 
@@ -135,7 +135,7 @@ Observations:
 - Data is slightly right-skewed
 - Some outliers are present
 
-![Target Distribution](images/fig4_target_distribution.png)
+![Target Distribution](Images/fig4_target_distribution.png)
 
 ---
 
@@ -145,7 +145,7 @@ Observations:
 Box plots for all features show the presence of outliers.  
 Outliers are expected in industrial process data and were **not removed** to keep realism.
 
-![Outliers Detection](images/fig5_outliers_detection.png)
+![Outliers Detection](Images/fig5_outliers_detection.png)
 
 ---
 
@@ -161,7 +161,7 @@ Results:
 - **Random Forest** shows the best performance
 - Linear and Ridge regression perform worse on nonlinear data
 
-![Model Comparison](images/fig6_model_comparison.png)
+![Model Comparison](Images/fig6_model_comparison.png)
 
 ---
 
@@ -172,7 +172,7 @@ Key insight:
 - **% Iron Concentrate** is the most influential feature
 - Process parameters like air flow and pH also contribute
 
-![Feature Importance](images/fig7_feature_importance.png)
+![Feature Importance](Images/fig7_feature_importance.png)
 
 ---
 
@@ -182,7 +182,7 @@ This scatter plot compares real and predicted values.
 - Points close to the diagonal line mean good predictions
 - Random Forest shows strong accuracy
 
-![Actual vs Predicted](images/fig8_actual_vs_predicted.png)
+![Actual vs Predicted](Images/fig8_actual_vs_predicted.png)
 
 ---
 
@@ -192,7 +192,7 @@ Residual plots show:
 - Residuals are approximately normally distributed
 - No strong bias is visible
 
-![Residuals Analysis](images/fig9_residuals_analysis.png)
+![Residuals Analysis](Images/fig9_residuals_analysis.png)
 
 ---
 
@@ -205,7 +205,7 @@ Purpose:
 - Support **operator decision-making**
 - Not intended for direct automatic control
 
-![Optimization Results](images/fig10_optimization_results.png)
+![Optimization Results](Images/fig10_optimization_results.png)
 
 ---
 
@@ -214,5 +214,6 @@ ML_PLC_industry/
 ├── ML_PLC_Jupyter.ipynb   # Main ML notebook
 ├── README.md              # Project documentation
 └── data/                  # Dataset (not included)
+
 
 
