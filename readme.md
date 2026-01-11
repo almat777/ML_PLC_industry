@@ -211,3 +211,7 @@ Purpose:
 ## Program Realization
 Show the video of realization work
 [![ML_PLC_industry](images/youtube_link.png)](https://youtube.com/shorts/U-6GGcndfKo)
+
+## Authors project
+- Almat Abdimalik
+- Rassul Zeinulla
